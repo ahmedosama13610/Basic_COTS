@@ -4,10 +4,16 @@
 #define PREASCALER_MASK			0b11111000
 
 #define CHANNEL_SELECTION_MASK	0b11100000
+
+#define IDLE                     0u
+#define BUSY                     1u
 			     
 #define EIGHT_BITS               1u
 #define TEN_BITS                 2u
 				 
+#define SINGLE_CONV_ASYNCH        0u
+#define CHAIN_CONV_ASYNCH         1u
+			 
 #define DIVISION_BY_2		     0u
 #define DIVISION_BY_4		     2u
 #define DIVISION_BY_8		     3u
